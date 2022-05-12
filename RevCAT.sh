@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Nicholas Ferreira - https://github.com/Nickguitar
+# trhacknon - https://github.com/trhacknon
 # Written in 21/09/2021
 # OpenCATS <= 0.9.4 Countach RCE
 
@@ -72,7 +72,7 @@ writePayload(){
 }
 
 banner(){
-	echo "IF8uXyAgICAgXywtJyIiYC0uXyAKKCwtLmAuXywnKCAgICAgICB8XGAtL3wgICAgICAgIFJldkNBVCAtIE9wZW5DQVQgUkNFCiAgICBgLS4tJyBcICktYCggLCBvIG8pICAgICAgICAgTmljaG9sYXMgIEZlcnJlaXJhCiAgICAgICAgICBgLSAgICBcYF9gIictICAgaHR0cHM6Ly9naXRodWIuY29tL05pY2tndWl0YXI=" | base64 -d
+	echo "IF8uXyAgICAgXywtJyIiYC0uXyAKKCwtLmAuXywnKCAgICAgICB8XGAtL3wgICAgICAgIFJldkNBVCAtIE9wZW5DQVQgUkNFCiAgICBgLS4tJyBcICktYCggLCBvIG8pICAgICAgICAgTW9kZGVkIGJ5ICB0cmhhY2tub24KICAgICAgICAgIGAtICAgIFxgX2AiJy0gICBodHRwczovL2dpdGh1Yi5jb20vdHJoYWNrbm9u" | base64 -d
 	echo -e "\n"
 }
 
