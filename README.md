@@ -16,5 +16,5 @@ _Note: &lt;target URL> must point to the root path where OpenCATS is installed._
 
 ## Screenshots
   
-![image](https://user-images.githubusercontent.com/3837916/141119980-85a55fca-7be8-437b-ab7d-8aa8ce4db567.png)
-![image](https://user-images.githubusercontent.com/3837916/141120000-9ec84284-f295-4d21-8a63-2555b495d879.png)
+![image](https://github.com/trhacknon/RevCAT/blob/main/IMG_20220512_022251.jpg)
+![image](https://github.com/trhacknon/RevCAT/blob/main/IMG_20220512_022411.jpg)
